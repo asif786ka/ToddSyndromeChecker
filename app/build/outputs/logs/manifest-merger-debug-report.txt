@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:2:1-121:12
+	package
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:11:5-119:19
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:12:9-54
+activity#com.doctors.TODDSYNDROME.SplashActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:screenOrientation
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:19:13-58
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:18:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.doctors.TODDSYNDROME.StartMenuActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:27:9-36:20
+	android:screenOrientation
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:29:13-57
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:28:13-70
+intent-filter#android.intent.action.MENU1+android.intent.category.DEFAULT
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MENU1
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:32:17-70
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:32:25-67
+category#android.intent.category.DEFAULT
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:34:27-73
+activity#com.doctors.TODDSYNDROME.ClinicalActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:37:9-42:20
+	android:screenOrientation
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:39:13-65
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:40:13-84
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:38:13-69
+activity#com.doctors.TODDSYNDROME.LearningActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:43:9-48:20
+	android:screenOrientation
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:45:13-65
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:46:13-84
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:44:13-69
+activity#com.doctors.TODDSYNDROME.ClinicalAssessmentActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:49:9-57:20
+	android:screenOrientation
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:51:13-71
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:52:13-83
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:50:13-79
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:54:13-56:81
+	android:value
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:56:17-78
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:55:17-63
+activity#com.doctors.TODDSYNDROME.ClinicalDiagnosisActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:58:9-65:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:60:13-70
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:61:13-83
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:59:13-78
+activity#com.doctors.TODDSYNDROME.ClinicalPatientEdActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:66:9-73:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:68:13-71
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:69:13-83
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:67:13-78
+activity#com.doctors.TODDSYNDROME.PatientListActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:74:9-77:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:76:13-64
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:75:13-72
+activity#com.doctors.TODDSYNDROME.PatientSelectionActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:78:9-81:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:80:13-69
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:79:13-77
+activity#com.doctors.TODDSYNDROME.PatientSummaryActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:82:9-89:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:84:13-67
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:85:13-86
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:83:13-75
+activity#com.doctors.TODDSYNDROME.PatientNewActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:90:9-97:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:92:13-63
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:93:13-91
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:91:13-71
+activity#com.doctors.TODDSYNDROME.LearningHeadActivity
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:98:9-111:20
+	android:label
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:100:13-65
+	android:parentActivityName
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:101:13-83
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:99:13-73
+provider#com.doctors.TODDSYNDROME.database.PatientContentProvider
+ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:113:5-117:17
+	android:authorities
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:115:9-64
+	android:exported
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:116:9-33
+	android:name
+		ADDED from /Users/MobileBillionare/Desktop/ToddSyndromeChecker/app/src/main/AndroidManifest.xml:114:9-80

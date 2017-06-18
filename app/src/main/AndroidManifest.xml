@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doctors.TODDSYNDROME"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name="com.doctors.TODDSYNDROME.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.doctors.TODDSYNDROME.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.StartMenuActivity"
+            android:label="@string/title_activity_menu1"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENU1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.ClinicalActivity"
+            android:label="@string/title_activity_clinical_menu"
+            android:parentActivityName="com.doctors.TODDSYNDROME.StartMenuActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.LearningActivity"
+            android:label="@string/title_activity_learning_menu"
+            android:parentActivityName="com.doctors.TODDSYNDROME.StartMenuActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.ClinicalAssessmentActivity"
+            android:label="@string/title_activity_clinical_assessment"
+            android:parentActivityName="com.doctors.TODDSYNDROME.ClinicalActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doctors.TODDSYNDROME.ClinicalMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.ClinicalDiagnosisActivity"
+            android:label="@string/title_activity_clinical_diagnosis"
+            android:parentActivityName="com.doctors.TODDSYNDROME.ClinicalActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doctors.TODDSYNDROME.ClinicalMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.ClinicalPatientEdActivity"
+            android:label="@string/title_activity_clinical_patient_ed"
+            android:parentActivityName="com.doctors.TODDSYNDROME.ClinicalActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doctors.TODDSYNDROME.ClinicalMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.PatientListActivity"
+            android:label="@string/title_activity_patient_list" >
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.PatientSelectionActivity"
+            android:label="@string/title_activity_patient_selection" >
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.PatientSummaryActivity"
+            android:label="@string/title_activity_patient_summary"
+            android:parentActivityName="com.doctors.TODDSYNDROME.PatientListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doctors.TODDSYNDROME.PatientListActivity" />
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.PatientNewActivity"
+            android:label="@string/title_activity_new_patient"
+            android:parentActivityName="com.doctors.TODDSYNDROME.PatientSelectionActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doctors.TODDSYNDROME.PatientSelectionActivity" />
+        </activity>
+        <activity
+            android:name="com.doctors.TODDSYNDROME.LearningHeadActivity"
+            android:label="@string/title_activity_learning_head"
+            android:parentActivityName="com.doctors.TODDSYNDROME.LearningActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.doctors.TODDSYNDROME.LearningActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+  		<provider
+      		android:name="com.doctors.TODDSYNDROME.database.PatientContentProvider"
+      		android:authorities="com.doctors.TODDSYNDROME.database"
+      		android:exported="false" >
+   		</provider>
+   		
+    </application>
+
+</manifest>
